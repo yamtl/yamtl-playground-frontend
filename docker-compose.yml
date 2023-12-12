@@ -1,0 +1,17 @@
+services:
+    mdenet-tool-yamtl:
+        image: yamtl-m2m:latest
+        ports:
+            - "8500:80"
+        build:
+          context: .
+          dockerfile: static.yamtlgroovy/Dockerfile
+
+    mdenet-tool-emf:
+        image: mdenet-tool-emf:latest
+        ports:
+            - "8073:80"
+        build:
+          context: .
+          dockerfile: static.emf/Dockerfile
+
