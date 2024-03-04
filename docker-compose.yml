@@ -15,3 +15,11 @@ services:
           context: .
           dockerfile: static.emf/Dockerfile
 
+    mdenet-test-activities:
+        image: "nginx:1.25-alpine"
+        ports:
+            - "8083:80"
+        volumes:
+            - ./activities-config/nginx.conf:/etc/nginx/nginx.conf
+            - ./activities-config/default.conf:/etc/nginx/conf.d/default.conf
+            - ./activities:/usr/share/nginx/html

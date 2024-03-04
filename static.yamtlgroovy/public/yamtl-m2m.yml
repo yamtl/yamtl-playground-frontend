@@ -27,4 +27,4 @@ tool:
         - id: run-trafo-button
           icon: run
           actionfunction: function-yamtl-m2m
-          hint: Run the program
+          hint: Run the program (Ctrl/Cmd+S)

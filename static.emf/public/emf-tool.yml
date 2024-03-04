@@ -28,6 +28,7 @@ tool:
       path: https://microservices.yamtl.space/Prod/xmi2od_puml
   panelDefs:
     - id: composite-panel
+      name: CompositePanel
       panelclass: CompositePanel
       icon: diagram
     - id: model-panel
