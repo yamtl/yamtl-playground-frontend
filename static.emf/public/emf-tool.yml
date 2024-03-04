@@ -3,7 +3,7 @@ tool:
   name: EMF
   version: 0.0.2
   author: Artur Boronat
-  homepage: https://github.com/mdenet/platformtools
+  homepage: https://yamtl.github.io/
   functions:
     - id: function-ecore2cd
       name: "Conversion: Ecore to class diagram"
@@ -13,7 +13,7 @@ tool:
         - name: metamodel
           type: emfatic
       returnType: puml
-      path: https://d2wa34vqh86v1b.cloudfront.net/Prod/ecore2cd_puml
+      path: https://microservices.yamtl.space/Prod/ecore2cd_puml
     - id: function-xmi2od
       name: "Conversion: Xmi model to augmented object diagram"
       parameters:
@@ -25,7 +25,7 @@ tool:
           type: xmi
           instanceOf: metamodel
       returnType: puml
-      path: https://d2wa34vqh86v1b.cloudfront.net/Prod/xmi2od_puml
+      path: https://microservices.yamtl.space/Prod/xmi2od_puml
   panelDefs:
     - id: composite-panel
       name: CompositePanel
