@@ -16,7 +16,7 @@ tool:
         - name: language
           type: string
       returnType: text
-      path: https://microservices.yamtl.space/Prod/yamtl_m2m
+      path: https://d2wa34vqh86v1b.cloudfront.net/Prod/yamtl_m2m
   panelDefs:
     - id: yamtl
       name: YAMTL M2M
