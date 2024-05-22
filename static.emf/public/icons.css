@@ -1,3 +1,6 @@
+.mif-icons8-json-16::before {
+    content: url("./icons/icons8-json-16.png");
+}
 .mif-emfatic::before {
     content: url("./icons/emfatic.png");
 }
