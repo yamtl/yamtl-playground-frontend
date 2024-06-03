@@ -20,12 +20,14 @@ var GroovyHighlightRules = function() {
         "char|final|interface|static|void|" +
         "class|finally|long|strictfp|volatile|" +
         "def|float|native|super|while" + 
-        // // YAMTL
+        // YAMTL
         "query|rule|ruleStore|helperStore|header|in|out|inOut|" +
         "staticAttribute|staticOperation|contextualOperation|YAMTLModule" +
         "filter|globalFilter|derivedWith||endWith|inheritsFrom|isAbstract|" +
         "isLazy|isUniqueLazy|isTransient|using|overriding|drop|freeze|unfreeze|" +
-        "priority|fetch|toMany"
+        "priority|fetch|toMany" +
+        // YAMTL QUERY DSL
+        "context|where"
     );
 
     var buildinConstants = (
