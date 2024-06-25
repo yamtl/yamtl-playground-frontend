@@ -57,7 +57,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: CD2DB.groovy
+        file: https://raw.githubusercontent.com/yamtl/examples/master/cd2db-groovy/src/main/java/cd2db/CD2DB_dynamic.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -65,7 +65,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: CD.emf
+            file: https://raw.githubusercontent.com/yamtl/examples/master/cd2db-groovy/src/main/resources/metamodels/Class.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -87,7 +87,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: Relational.emf
+            file: https://raw.githubusercontent.com/yamtl/examples/master/cd2db-groovy/src/main/resources/metamodels/Relational.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -110,7 +110,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: sourceModel.xmi
+            file: https://raw.githubusercontent.com/yamtl/examples/master/cd2db-groovy/src/main/resources/models/correctness1/class.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -209,7 +209,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: reverse-list/ReverseLinkedList.groovy
+        file: https://raw.githubusercontent.com/yamtl/examples/master/yamtl-linkedlistreversal/src/main/groovy/linkedListReversal/ReverseLinkedList.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -217,7 +217,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: reverse-list/LinkedListSource.emf
+            file: https://raw.githubusercontent.com/yamtl/examples/master/yamtl-linkedlistreversal/model/LinkedList.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -239,7 +239,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: reverse-list/LinkedListTarget.emf
+            file: https://raw.githubusercontent.com/yamtl/examples/master/yamtl-linkedlistreversal/model/LinkedList.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -262,7 +262,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: reverse-list/inputList.xmi
+            file: https://raw.githubusercontent.com/yamtl/examples/master/yamtl-linkedlistreversal/model/inputList.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -361,7 +361,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/Base.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/Base.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -369,7 +369,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -391,7 +391,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -414,7 +414,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -513,7 +513,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/DerivedWith.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/DerivedWith.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -521,7 +521,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -543,7 +543,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -566,7 +566,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -665,7 +665,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/EndWith.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/EndWith.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -673,7 +673,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -695,7 +695,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -718,7 +718,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -817,7 +817,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/Filter.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/Filter.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -825,7 +825,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -847,7 +847,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -870,7 +870,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -969,7 +969,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/Inheritance.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/Inheritance.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -977,7 +977,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -999,7 +999,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -1022,7 +1022,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup_with_subflow.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup_with_subflow.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -1121,7 +1121,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/LazyExample.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/LazyExample.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -1129,7 +1129,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -1151,7 +1151,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -1174,7 +1174,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -1273,7 +1273,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/MultipleSources.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/MultipleSources.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -1281,7 +1281,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -1303,7 +1303,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -1326,7 +1326,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -1425,7 +1425,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/MultipleTargets.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/MultipleTargets.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -1433,7 +1433,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -1455,7 +1455,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -1478,7 +1478,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -1577,7 +1577,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/Override.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/Override.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -1585,7 +1585,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -1607,7 +1607,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -1630,7 +1630,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup_with_subflow.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup_with_subflow.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -1729,7 +1729,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/Priority.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/Priority.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -1737,7 +1737,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -1759,7 +1759,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -1782,7 +1782,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -1881,7 +1881,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/ToManyCap.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/ToManyCap.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -1889,7 +1889,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -1911,7 +1911,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -1934,7 +1934,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
@@ -2033,7 +2033,7 @@ activities:
       - id: panel-yamtl
         name: Transformation(YAMTL)
         ref: yamtl
-        file: workflow2html/Transient.groovy   # Updated value
+        file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/src/main/groovy/flowchartToHtmlExamples/Transient.groovy
       - id: smm-panel-composite
         name: Source Metamodel
         ref: composite-panel
@@ -2041,7 +2041,7 @@ activities:
           - id: panel-smm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/flowchart.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/flowchart.emf
           - id: panel-smm-diagram
             name: Diagram
             ref: plantuml
@@ -2063,7 +2063,7 @@ activities:
           - id: panel-tmm
             name: EMFatic
             ref: emfatic
-            file: workflow2html/models/html.emf   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/html.emf
           - id: panel-tmm-diagram
             name: Diagram
             ref: plantuml
@@ -2086,7 +2086,7 @@ activities:
           - id: panel-smodel
             name: XMI
             ref: xmi
-            file: workflow2html/models/wakeup.xmi   # Updated value
+            file: https://raw.githubusercontent.com/yamtl/examples/master/FlowchartToHTML/model/wakeup.xmi
           - id: panel-smodel-diagram
             name: Diagram
             ref: plantuml
